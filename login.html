@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Opis strony">
+    <meta name="keywords" content="słowa kluczowe">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <title>TheBestDetailing</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/icon.png" alt="Logo" class="logo-icon">
+                <a href="index.html">TheBestDetailing</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">STRONA GŁÓWNA</a></li>
+                <li><a href="services.html">USŁUGI</a></li>
+                <li><a href="gallery.html">GALERIA</a></li>
+                <!-- <li><a href="#">SKLEP</a></li> -->
+                <li><a href="contact.html">KONTAKT</a></li>
+                <li><a href="login.html">ZALOGUJ SIĘ</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="checkmark"></ion-icon></ion-icon></span>    
+
+        <div class="form-box login">
+            <h2>Zaloguj się</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" placeholder=" " required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" placeholder=" " required>
+                    <label>Hasło</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">Zapamiętaj hasło</label>
+                        <a href="#">Zapamiętać?</a>
+                    </div>
+                    <button type="submit" class="btn">Zaloguj się.</button>
+                <div class="login-register">
+                    <p>Nie masz konta?<a href="#" class="register-link">Załóż</a></p>
+                </div>        
+            </form>
+        </div>
+
+
+        <div class="form-box register">
+            <h2>Zarejrestruj się</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" placeholder=" " required>
+                    <label>Imię</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" placeholder=" " required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" placeholder=" " required>
+                    <label>Hasło</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">Zgadzam się z warunkami.</label>
+                        
+                    </div>
+                    <button type="submit" class="btn">Zarejestruj się.</button>
+                <div class="login-register">
+                    <p>Masz już konto?<a href="#" class="login-link">Zaloguj się</a></p>
+                </div>        
+            </form>
+        </div>    
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 TheBestDetailing. Wszystkie prawa zastrzeżone.</p>
+        <p>Autor: Kacper Hałaj</p>
+    </footer>
+
+
+<script src="active.js"></script>    
+<script src="menuscript.js"></script>
+<script src="scrollmenu.js"></script>
+<script src="scrollgallery.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>
