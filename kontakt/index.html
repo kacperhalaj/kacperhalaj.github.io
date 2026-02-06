@@ -5,35 +5,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- TYTUŁ: "Kontakt" i główne obszary -->
+    <!-- TYTUŁ I OPIS -->
     <title>Kontakt Kominiarz - Leżajsk, Łańcut, Rzeszów, Sokołów | 500 837 042</title>
-
-    <!-- OPIS: Wezwanie do działania (Call to Action) -->
     <meta name="description"
         content="Szukasz kominiarza? Zadzwoń: 500 837 042. Szybkie terminy w powiecie leżajskim, łańcuckim i rzeszowskim. Brzóza Królewska, Nowa Sarzyna, Żołynia, Grodzisko.">
 
-    <!-- SŁOWA KLUCZOWE: Nacisk na "telefon", "adres", "kontakt" + małe miejscowości -->
-    <meta name="keywords" content="kominiarz telefon, numer do kominiarza, kominiarz kontakt,
-    kominiarz Brzóza Królewska kontakt, kominiarz Leżajsk telefon, kominiarz Łańcut numer, kominiarz Rzeszów kontakt,
-    kominiarz Sokołów Małopolski telefon, kominiarz Nowa Sarzyna kontakt,
-    usługi kominiarskie Rakszawa, kominiarz Żołynia, kominiarz Krzeszów, kominiarz Biedaczów, kominiarz Giedlarowa,
-    kominiarz Kuryłówka, kominiarz Nienadówka, kominiarz Górno, kominiarz Grodzisko Dolne, kominiarz Wierzawice,
-    kominiarz Kamień, kominiarz Trzeboś, kominiarz Stobierna, kominiarz Łętownia, kominiarz Medynia Łańcucka,
-    kominiarz Hucisko, kominiarz Turza, kominiarz Łowisko, kominiarz Łukowa, kominiarz Przychojec, kominiarz Jelna,
-    kominiarz Nisko, kominiarz Rudnik nad Sanem, kominiarz Jeżowe, kominiarz Kopki, kominiarz Ożanna, kominiarz Piskorowice,
-    kominiarz Dębno, kominiarz Gwizdów, kominiarz Jasionka, kominiarz Tryńcza">
+    <!-- SŁOWA KLUCZOWE -->
+    <meta name="keywords"
+        content="kominiarz telefon, numer do kominiarza, kominiarz kontakt, kominiarz Brzóza Królewska kontakt, kominiarz Leżajsk telefon, kominiarz Łańcut numer, kominiarz Rzeszów kontakt, kominiarz Sokołów Małopolski telefon, kominiarz Nowa Sarzyna kontakt, usługi kominiarskie Rakszawa, kominiarz Żołynia, kominiarz Krzeszów, kominiarz Biedaczów, kominiarz Giedlarowa, kominiarz Kuryłówka, kominiarz Nienadówka, kominiarz Górno, kominiarz Grodzisko Dolne, kominiarz Wierzawice, kominiarz Kamień, kominiarz Trzeboś, kominiarz Stobierna, kominiarz Łętownia, kominiarz Medynia Łańcucka, kominiarz Hucisko, kominiarz Turza, kominiarz Łowisko, kominiarz Łukowa, kominiarz Przychojec, kominiarz Jelna, kominiarz Nisko, kominiarz Rudnik nad Sanem, kominiarz Jeżowe, kominiarz Kopki, kominiarz Ożanna, kominiarz Piskorowice, kominiarz Dębno, kominiarz Gwizdów, kominiarz Jasionka, kominiarz Tryńcza">
 
     <meta property="og:title" content="Skontaktuj się z kominiarzem - Hałaj Robert">
     <meta property="og:description"
         content="Umów wizytę kominiarską. Telefon: 500 837 042. Obsługujemy całe województwo podkarpackie (powiat leżajski, łańcucki, rzeszowski).">
-    <meta property="og:url" content="https://kacperhalaj.github.io/kontakt.html">
+    <meta property="og:url" content="https://kacperhalaj.github.io/kontakt/">
     <meta property="og:image" content="https://kacperhalaj.github.io/data/kominiarz1.png">
 
-    <link rel="icon" type="image/jpeg" href="data/logo1.jpg">
+    <!-- UWAGA: Ścieżka z ../ -->
+    <link rel="icon" type="image/jpeg" href="../data/logo1.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
-    <!-- SCHEMA: LocalBusiness z naciskiem na dane kontaktowe -->
+    <!-- SCHEMA -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -41,7 +33,7 @@
       "name": "Usługi Kominiarskie Hałaj Robert",
       "image": "https://kacperhalaj.github.io/data/logo1.jpg",
       "@id": "https://kacperhalaj.github.io",
-      "url": "https://kacperhalaj.github.io/kontakt.html",
+      "url": "https://kacperhalaj.github.io/kontakt/",
       "telephone": "+48500837042",
       "address": {
         "@type": "PostalAddress",
@@ -78,8 +70,9 @@
     <!-- HEADER -->
     <header id="mainHeader" class="site-header">
         <div class="container-fluid header-container">
-            <a href="index.html" class="brand-center text-decoration-none">
-                <img src="data/logo1.jpg" alt="Logo" class="site-logo">
+            <a href="/" class="brand-center text-decoration-none">
+                <!-- UWAGA: Ścieżka do logo z ../ -->
+                <img src="../data/logo1.jpg" alt="Logo" class="site-logo">
                 <div class="site-titles">
                     <h1 class="mb-0">USŁUGI KOMINIARSKIE</h1>
                     <h2 class="mb-0"><b>HAŁAJ ROBERT</b></h2>
@@ -87,9 +80,10 @@
             </a>
             <div class="nav-right-wrapper">
                 <ul class="desktop-nav d-none d-xl-flex">
-                    <li><a class="nav-link" href="index.html">STRONA GŁÓWNA</a></li>
-                    <li><a class="nav-link" href="uslugi.html">USŁUGI</a></li>
-                    <li><a class="nav-link active" href="kontakt.html">KONTAKT</a></li>
+                    <!-- CZYSTE LINKI -->
+                    <li><a class="nav-link" href="/">STRONA GŁÓWNA</a></li>
+                    <li><a class="nav-link" href="/uslugi/">USŁUGI</a></li>
+                    <li><a class="nav-link active" href="/kontakt/">KONTAKT</a></li>
                 </ul>
                 <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false"
@@ -99,9 +93,9 @@
             </div>
             <div class="collapse navbar-collapse mobile-dropdown d-xl-none" id="mobileMenu">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">STRONA GŁÓWNA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="uslugi.html">USŁUGI</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="kontakt.html">KONTAKT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">STRONA GŁÓWNA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/uslugi/">USŁUGI</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/kontakt/">KONTAKT</a></li>
                 </ul>
             </div>
         </div>
@@ -215,16 +209,32 @@
     <footer class="site-footer">
         <div class="container text-center">
             <div class="footer-content">
-                <p class="mb-0 copyright-text">
+
+                <p class="mb-1 copyright-text">
                     &copy; 2026 <strong>Usługi Kominiarskie Hałaj Robert</strong>. Wszelkie prawa zastrzeżone.
                 </p>
+
+                <p class="mb-1 footer-info" style="font-size: 0.9rem; color: #555;">
+                    Brzóza Królewska 827, 37-307 | Tel: <a href="tel:+48500837042"
+                        style="color: inherit; text-decoration: none; font-weight: 600;">500 837 042</a>
+                </p>
+
+                <p class="mb-0 footer-keywords" style="font-size: 0.85rem; color: #777;">
+                    Kominiarz Leżajsk • Rzeszów • Łańcut • Przeglądy do ubezpieczenia • Czyszczenie kominów • Odbiory
+                    budynków • Opinie do
+                    gazowni
+                </p>
+
             </div>
         </div>
     </footer>
 
     <!-- Bootstrap & Icons -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+
+    <!-- UWAGA: Ścieżka do skryptu z ../ -->
+    <script src="../js/main.js"></script>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
