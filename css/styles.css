@@ -3,10 +3,10 @@
     --header-height-shrunk: 80px;
     --font-h1: clamp(0.8rem, 2vw, 1.9rem);
     --font-h2: clamp(0.7rem, 1.3vw, 1.5rem);
-    --logo-size: 70px;
+    --logo-size: 90px;
     --text-primary: #222;
     --bg-header: #ffffff;
-    --active-color: #0d6efd;
+    --active-color: #D2AA53;
 }
 
 /* --- HEADERY --- */
@@ -104,7 +104,7 @@ main {
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.15rem;
     padding: 0.5rem;
     transition: color 0.3s, font-weight 120ms;
 }
@@ -291,7 +291,7 @@ main {
 .big-icon {
     width: 50px;
     height: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-color: #eef5ff;
     color: var(--active-color);
     border-radius: 50%;
@@ -304,7 +304,7 @@ main {
 .big-icon {
     width: 60px;
     height: 60px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .text-wrapper h5,
@@ -388,7 +388,7 @@ main {
 .site-footer {
     background-color: #f8f9fa;
     border-top: 1px solid #e9ecef;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
     margin-top: auto;
 }
 
@@ -720,101 +720,5 @@ main {
 @media (min-width: 1200px) {
     .hero-section {
         background-attachment: fixed;
-    }
-}
-
-/* 
-   MEDIA QUERY: DUŻE EKRANY
-*/
-
-@media (min-width: 1400px) {
-
-    html {
-        font-size: 18px;
-    }
-
-    .site-header {
-        height: 130px;
-    }
-
-    .nav-link {
-        font-size: 1.15rem !important;
-        margin-left: 25px;
-    }
-
-    /* 3. TYTUŁY I NAGŁÓWKI */
-    .site-titles h1 {
-        font-size: 2.2rem;
-    }
-
-    .site-titles h2 {
-        font-size: 1.5rem;
-        letter-spacing: 1px;
-    }
-
-    /* 4. TREŚCI SEKCJI (Kafelki, opisy) */
-    p,
-    .info-text,
-    li {
-        font-size: 1.1rem;
-        line-height: 1.7;
-    }
-
-    .feature-card h4,
-    .service-item .text-wrapper h5 {
-        font-size: 1.4rem;
-    }
-
-    /* 5. BANER GŁÓWNY (HERO) */
-    .hero-title {
-        font-size: 3.8rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.5rem;
-    }
-
-    .btn-hero {
-        font-size: 1.2rem;
-        padding: 18px 40px;
-    }
-
-    /* 6. KONTAKT I GODZINY */
-    .info-phone {
-        font-size: 1.6rem;
-    }
-
-    .hours-list li {
-        font-size: 1.15rem;
-    }
-}
-
-/* 
-   SUPER SZEROKIE EKRANY (Full HD 1920px i więcej) 
-   Dla monitorów 24-27 cali i większych
-*/
-@media (min-width: 1920px) {
-
-    html {
-        font-size: 20px;
-    }
-
-    .container {
-        max-width: 1600px;
-    }
-
-    .nav-link {
-        font-size: 1.2rem !important;
-    }
-
-    .section-title {
-        font-size: 3rem;
-        margin-bottom: 3rem;
-    }
-
-    .feature-card,
-    .services-box,
-    .contact-box {
-        padding: 4rem 3rem;
     }
 }
