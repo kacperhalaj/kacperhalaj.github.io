@@ -31,4 +31,4 @@ Any violation of the above terms may result in legal consequences under applicab
 
 If you are interested in using this project or any of its components, please contact the author to request permission.
 
-© 2026 — All Rights Reserved
+© 2026 — All Rights Reserved, kacperhalaj
