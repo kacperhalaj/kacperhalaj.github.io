@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://kacperhalaj.github.io/</loc>
+      <loc>https://uslugikominiarza.pl/</loc>
       <lastmod>2024-02-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://kacperhalaj.github.io/uslugi/</loc>
+      <loc>https://uslugikominiarza.pl/uslugi/</loc>
       <lastmod>2024-02-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://kacperhalaj.github.io/kontakt/</loc>
+      <loc>https://uslugikominiarza.pl/kontakt/</loc>
       <lastmod>2024-02-06</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.8</priority>
